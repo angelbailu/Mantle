@@ -1,0 +1,19 @@
+{
+  "name": "Mantle",
+  "version": "2.1.3",
+  "summary": "Model framework for Cocoa and Cocoa Touch.",
+  "homepage": "https://github.com/diaojunxian/Mantle.git",
+  "license": "MIT",
+  "authors": "txx",
+  "source": {
+      "git": "git@github.com:diaojunxian/Mantle.git",
+      "branch": "mantle"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "frameworks": "Foundation",
+  "vendored_frameworks": "Carthage/Build/iOS/Mantle.framework"
+  "prepare_command": "python mantle_build.py"
+}
